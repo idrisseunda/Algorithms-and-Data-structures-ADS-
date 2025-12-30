@@ -53,5 +53,6 @@ def strg(s):
      if v==k:
         s=sm(s,z)
         return s   
-s="))(())dhefrwedj)hdcbdh)jdc nh)kjdncjd(ckwje) cjw)"
-print(strg(s))
+s="))))dhefrwedj)hdcbdh)jdc nh)kjdncjd(ckwje) cjw)"
+t=strg(s)
+print(t)
