@@ -24,7 +24,7 @@ def sort_string(s):
     O=[]
     x=[]
     while len(s)>0:
-        print(len(s))
+        #print(len(s))
         x.append(s[0])
         k=1
         f=[0]
@@ -34,7 +34,7 @@ def sort_string(s):
                 k=k+1
         O.append(k)
         s=sm(s,f)
-    print(x,O)
+    #print(x,O)
     while len(O)>0:
         max=O[0]
         indexmax=0
